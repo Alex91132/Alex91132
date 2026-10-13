@@ -109,6 +109,6 @@ method validated by simulation), a real-data A/B case with a pre-registered anal
 for oil-well treatments (8 estimators benchmarked against known ground truth), and an oil production data
 platform (PostgreSQL → Airflow → ClickHouse → Superset). Docs are in Russian; numbers, code and tests are universal.
 
-Based in Krasnoyarsk, open to relocation and remote work.
+Open to relocation and remote work.
 [Portfolio](https://alex91132.github.io/) · [Telegram](https://t.me/Alex91132) · alexandr91132@gmail.com
 </details>
