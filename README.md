@@ -59,6 +59,24 @@
       <br><a href="https://github.com/Alex91132/oil-production-dwh">Код</a>
     </td>
   </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://alex91132.github.io/well-log-lithology/"><img src="assets/litho.jpg" alt="Литология скважины: геолог против модели"></a>
+      <br><b>Литология по каротажу: ML-модель и сервис</b>
+      <br>LightGBM на 118 реальных скважинах FORCE 2020. План до финальной оценки, валидация по скважинам
+      (случайное разбиение обещало в 3,4 раза лучше), сравнение с финалистами, FastAPI + Docker
+      с предупреждениями о плохих входных данных.
+      <br><a href="https://alex91132.github.io/well-log-lithology/">Результаты</a> ·
+      <a href="https://github.com/Alex91132/well-log-lithology">Код</a>
+    </td>
+    <td width="50%" valign="top">
+      <b>Volve: анатомия месторождения — EDA</b>
+      <br>Разведочный анализ открытых данных месторождения Volve (Equinor): 7 скважин, 9 лет суточных замеров.
+      Гипотезы и проверки вместо «посмотрим на распределения»: эффект остановок, связь закачки с обводнённостью,
+      темп падения добычи.
+      <br><a href="https://github.com/Alex91132/volve-eda">Код и ноутбук</a>
+    </td>
+  </tr>
 </table>
 
 **Ещё:**
@@ -88,6 +106,7 @@
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white)
 ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![LightGBM](https://img.shields.io/badge/LightGBM-2E7D32?style=flat-square)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
@@ -106,7 +125,8 @@ gathering requirements from domain experts, preparing data, validating models, m
 
 Pet projects: an A/B-testing engine in Python (SRM, CUPED, delta method, mSPRT, O'Brien–Fleming, every
 method validated by simulation), a real-data A/B case with a pre-registered analysis plan, causal inference
-for oil-well treatments (8 estimators benchmarked against known ground truth), and an oil production data
+for oil-well treatments (8 estimators benchmarked against known ground truth), lithology prediction from well logs
+on 118 real wells with well-grouped validation and a FastAPI service, and an oil production data
 platform (PostgreSQL → Airflow → ClickHouse → Superset). Docs are in Russian; numbers, code and tests are universal.
 
 Open to relocation and remote work.
