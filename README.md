@@ -70,17 +70,20 @@
       <a href="https://github.com/Alex91132/well-log-lithology">Код</a>
     </td>
     <td width="50%" valign="top">
-      <b>Volve: анатомия месторождения — EDA</b>
-      <br>Разведочный анализ открытых данных месторождения Volve (Equinor): 7 скважин, 9 лет суточных замеров.
-      Гипотезы и проверки вместо «посмотрим на распределения»: эффект остановок, связь закачки с обводнённостью,
-      темп падения добычи.
-      <br><a href="https://github.com/Alex91132/volve-eda">Код и ноутбук</a>
+      <a href="https://alex91132.github.io/online-retail-metrics/"><img src="assets/retail.jpg" alt="Мост выручки год к году"></a>
+      <br><b>Метрики интернет-магазина: что случилось с выручкой</b>
+      <br>1 млн реальных транзакций: SQL-витрины в DuckDB, словарь метрик, мост выручки и разложение
+      «клиенты × частота × чек», когорты, RFM. Выручка +1,9 %, но постоянные клиенты покупают на 8 % реже.
+      Дашборд в Yandex DataLens.
+      <br><a href="https://alex91132.github.io/online-retail-metrics/">Записка</a> ·
+      <a href="https://github.com/Alex91132/online-retail-metrics">Код</a>
     </td>
   </tr>
 </table>
 
 **Ещё:**
 
+* [Volve: анатомия месторождения](https://github.com/Alex91132/volve-eda) — EDA открытых данных Equinor: гипотезы с плацебо-контролем, блочный бутстреп
 * [Симулятор A/B-тестов](https://alex91132.github.io/ab-simulator/) — размер выборки, мощность, Монте-Карло на чистом JS
 * [Ковёр бурения](https://alex91132.github.io/drilling-carpet/) — график движения буровых установок из Excel
 * [REST API на FastAPI](https://github.com/Alex91132/houses_ms) — каталог объектов, в разработке
@@ -102,6 +105,7 @@
 ![Apache Spark](https://img.shields.io/badge/Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
 ![Apache Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
 <br>
+![DataLens](https://img.shields.io/badge/DataLens-FFCC00?style=flat-square)
 ![Superset](https://img.shields.io/badge/Superset-20A6C9?style=flat-square&logo=apachesuperset&logoColor=white)
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white)
 ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white)
@@ -125,7 +129,7 @@ gathering requirements from domain experts, preparing data, validating models, m
 
 Pet projects: an A/B-testing engine in Python (SRM, CUPED, delta method, mSPRT, O'Brien–Fleming, every
 method validated by simulation), a real-data A/B case with a pre-registered analysis plan, causal inference
-for oil-well treatments (8 estimators benchmarked against known ground truth), lithology prediction from well logs
+for oil-well treatments (8 estimators benchmarked against known ground truth), a retail metrics case on 1M real transactions (metric tree, revenue bridge, cohorts, RFM, Yandex DataLens), lithology prediction from well logs
 on 118 real wells with well-grouped validation and a FastAPI service, and an oil production data
 platform (PostgreSQL → Airflow → ClickHouse → Superset). Docs are in Russian; numbers, code and tests are universal.
 
