@@ -99,6 +99,24 @@
       <a href="https://github.com/Alex91132/paris-dvf-eda">Код</a>
     </td>
   </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://alex91132.github.io/music-recsys/"><img src="assets/music-recsys.jpg" alt="Качество рекомендаций по самостоятельным находкам и трекам из рекомендаций"></a>
+      <br><b>Рекомендации музыки: двухэтапная система</b>
+      <br>Yambda-50M (Яндекс Музыка): кандидаты из ALS, item2item и других источников → LightGBM LambdaRank.
+      Проверка только по времени, тест открыт один раз. В открытиях новых треков <b>+75&nbsp;% NDCG@10</b> к ALS;
+      найдено смещение обратной связи — часть «выигрыша» лишь повторяет старые рекомендации.
+      <br><a href="https://alex91132.github.io/music-recsys/">Отчёт</a> ·
+      <a href="https://github.com/Alex91132/music-recsys">Код</a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Alex91132/retools"><img src="assets/retools.jpg" alt="Подбор компоновки горизонтальной скважины по РИГИС"></a>
+      <br><b>retools: инженерный Excel/VBA → Python</b>
+      <br>Подбор компоновки горизонтальной скважины по РИГИС и расчёт добычи: перенос расчётника со сверкой с исходной
+      книгой, точный подбор фильтров вместо «Поиска решения», Баклей — Леверетт, конусы, барьеры; интерфейс на Streamlit.
+      <br><a href="https://github.com/Alex91132/retools">Код</a>
+    </td>
+  </tr>
 </table>
 
 **Ещё:**
@@ -106,7 +124,6 @@
 * Серия Volve на открытых данных Equinor: [EDA](https://github.com/Alex91132/volve-eda) — гипотезы с плацебо-контролем, блочный бутстреп;
   [ML-прогноз дебита](https://github.com/Alex91132/volve-ml-forecast) — бэктестинг без утечек;
   [время до обводнения](https://github.com/Alex91132/volve-survival) — Каплан — Мейер, log-rank
-* [retools](https://github.com/Alex91132/retools) — подбор компоновки горизонтальной скважины по РИГИС и расчёт добычи: перенос инженерного Excel/VBA на Python со сверкой с исходной книгой
 * [HR Analytics: почему уходят сотрудники](https://github.com/Alex91132/hr-attrition-eda) — EDA оттока: χ², Cramér's V, логистическая регрессия
 * [Симулятор A/B-тестов](https://alex91132.github.io/ab-simulator/) — размер выборки, мощность, Монте-Карло на чистом JS
 * [Ковёр бурения](https://alex91132.github.io/drilling-carpet/) — график движения буровых установок из Excel
@@ -140,8 +157,8 @@
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
 **Методы:** A/B-тесты (SRM, CUPED, дельта-метод, последовательный анализ, множественные сравнения),
-причинный анализ (DiD, сопоставление по пропенсити, синтетический контроль), бутстреп, Монте-Карло,
-валидация ML-моделей.
+причинный анализ (DiD, сопоставление по пропенсити, синтетический контроль), рекомендательные системы
+(отбор кандидатов, learning-to-rank, офлайн-оценка по времени), бутстреп, Монте-Карло, валидация ML-моделей.
 
 <details>
 <summary><b>In English</b></summary>
@@ -157,7 +174,9 @@ for oil-well treatments (8 estimators benchmarked against known ground truth), a
 on 118 real wells with well-grouped validation and a FastAPI service, an oil production data
 platform (PostgreSQL → Airflow → ClickHouse → Superset), an end-to-end e-wallet project (requirements,
 PostgreSQL with money invariants, CDC to ClickHouse, dbt, product analytics), a hypothesis-driven EDA of
-317k Paris housing sales, and a Python port of an engineering Excel/VBA tool for horizontal well completion. Docs are in Russian; numbers, code and tests are universal.
+317k Paris housing sales, a two-stage music recommender on Yandex Music data (candidate generation +
+LightGBM LambdaRank, time-based evaluation, feedback-loop bias analysis), and a Python port of an engineering
+Excel/VBA tool for horizontal well completion. Docs are in Russian; numbers, code and tests are universal.
 
 Open to relocation and remote work.
 [Portfolio](https://alex91132.github.io/) · [Telegram](https://t.me/Alex91132) · alexandr91132@gmail.com
