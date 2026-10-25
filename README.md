@@ -79,11 +79,35 @@
       <a href="https://github.com/Alex91132/online-retail-metrics">Код</a>
     </td>
   </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://alex91132.github.io/wallet-data-platform/"><img src="assets/wallet.jpg" alt="Воронка KYC и экономика A/B-теста кешбэка"></a>
+      <br><b>Кошелёк от транзакции до решения</b>
+      <br>Сквозной проект за три роли: требования и контракты, PostgreSQL с инвариантами денег и тестами
+      конкурентного доступа, Debezium CDC → ClickHouse → dbt, продуктовая аналитика. A/B кешбэка: +13 % покупок,
+      но −74 ₽ на клиента — не раскатывать. Весь стек в Docker одной командой.
+      <br><a href="https://alex91132.github.io/wallet-data-platform/">Отчёт</a> ·
+      <a href="https://github.com/Alex91132/wallet-data-platform">Код</a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://alex91132.github.io/paris-dvf-eda/"><img src="assets/paris-dvf.jpg" alt="Карта цены за м² в Париже и пригороде"></a>
+      <br><b>Рынок жилья Парижа: EDA 317 тыс. сделок</b>
+      <br>Открытый реестр DVF 2021–2024, гипотезы со статистикой: сравнение внутри квартала 300 м, кластерные
+      ошибки, перестановочный тест. Три наивных вывода не пережили проверки: премия новостроек не +2 %, а +24 %;
+      парадокс Симпсона у больших квартир; эффекта Олимпиады нет.
+      <br><a href="https://alex91132.github.io/paris-dvf-eda/">Отчёт</a> ·
+      <a href="https://github.com/Alex91132/paris-dvf-eda">Код</a>
+    </td>
+  </tr>
 </table>
 
 **Ещё:**
 
-* [Volve: анатомия месторождения](https://github.com/Alex91132/volve-eda) — EDA открытых данных Equinor: гипотезы с плацебо-контролем, блочный бутстреп
+* Серия Volve на открытых данных Equinor: [EDA](https://github.com/Alex91132/volve-eda) — гипотезы с плацебо-контролем, блочный бутстреп;
+  [ML-прогноз дебита](https://github.com/Alex91132/volve-ml-forecast) — бэктестинг без утечек;
+  [время до обводнения](https://github.com/Alex91132/volve-survival) — Каплан — Мейер, log-rank
+* [retools](https://github.com/Alex91132/retools) — подбор компоновки горизонтальной скважины по РИГИС и расчёт добычи: перенос инженерного Excel/VBA на Python со сверкой с исходной книгой
+* [HR Analytics: почему уходят сотрудники](https://github.com/Alex91132/hr-attrition-eda) — EDA оттока: χ², Cramér's V, логистическая регрессия
 * [Симулятор A/B-тестов](https://alex91132.github.io/ab-simulator/) — размер выборки, мощность, Монте-Карло на чистом JS
 * [Ковёр бурения](https://alex91132.github.io/drilling-carpet/) — график движения буровых установок из Excel
 * [REST API на FastAPI](https://github.com/Alex91132/houses_ms) — каталог объектов, в разработке
@@ -130,8 +154,10 @@ gathering requirements from domain experts, preparing data, validating models, m
 Pet projects: an A/B-testing engine in Python (SRM, CUPED, delta method, mSPRT, O'Brien–Fleming, every
 method validated by simulation), a real-data A/B case with a pre-registered analysis plan, causal inference
 for oil-well treatments (8 estimators benchmarked against known ground truth), a retail metrics case on 1M real transactions (metric tree, revenue bridge, cohorts, RFM, Metabase dashboard as code), lithology prediction from well logs
-on 118 real wells with well-grouped validation and a FastAPI service, and an oil production data
-platform (PostgreSQL → Airflow → ClickHouse → Superset). Docs are in Russian; numbers, code and tests are universal.
+on 118 real wells with well-grouped validation and a FastAPI service, an oil production data
+platform (PostgreSQL → Airflow → ClickHouse → Superset), an end-to-end e-wallet project (requirements,
+PostgreSQL with money invariants, CDC to ClickHouse, dbt, product analytics), a hypothesis-driven EDA of
+317k Paris housing sales, and a Python port of an engineering Excel/VBA tool for horizontal well completion. Docs are in Russian; numbers, code and tests are universal.
 
 Open to relocation and remote work.
 [Portfolio](https://alex91132.github.io/) · [Telegram](https://t.me/Alex91132) · alexandr91132@gmail.com
