@@ -1,8 +1,8 @@
 <h1 align="center">Александр Федоров</h1>
 
 <p align="center">
-  <b>Аналитик данных и руководитель проектов · 11+ лет в нефтегазе</b><br>
-  A/B-тесты · причинный анализ · SQL и Python · инженерия данных
+  <b>Руководитель проектов · 12+ лет в нефтегазе</b><br>
+  управление командой · сбор требований и приёмка · A/B-тесты · SQL и Python · инженерия данных
 </p>
 
 <p align="center">
@@ -14,9 +14,10 @@
 
 ---
 
-10+ лет был инженером-нефтяником: бурение, ГРП, планирование скважин. Сейчас веду разработку
-ИИ-помощников и расчётных продуктов для нефтегазовой отрасли — собираю требования у экспертов,
-готовлю данные, валидирую модели, руковожу командой разработки.
+С начала 2026 года руковожу проектами цифровизации добычи: кросс-функциональная команда
+(аналитики, backend, frontend, QA, DevOps), требования → декомпозиция → контроль сроков → приёмка.
+До этого 10+ лет был инженером-нефтяником (бурение, ГРП, планирование скважин) и год — аналитиком
+данных: собираю требования у экспертов, готовлю данные, валидирую модели.
 
 В pet-проектах беру задачи, которые решаются на работе, и довожу их до конца: план анализа,
 проверка методов на данных с известным ответом, тесты, CI, живая демо и записка с решением.
@@ -164,7 +165,7 @@
 <summary><b>In English</b></summary>
 <br>
 
-Data analyst and project lead with 11+ years in oil & gas — drilling, hydraulic fracturing, well planning.
+Project lead and data analyst with 12+ years in oil & gas — drilling, hydraulic fracturing, well planning, and AI assistant delivery.
 Today I lead development of AI assistants and engineering calculation products for the industry:
 gathering requirements from domain experts, preparing data, validating models, managing the dev team.
 
